@@ -1,0 +1,62 @@
+type: doubleTurret
+name: "Lugel Turret Big"
+description: "Big lugel turret"
+targetAir: true
+targetGround: true
+health: 860
+size: 3
+reload: 30
+inaccuracy: 2
+range: 200
+ammo: {
+ graphite: {
+ speed: 5
+ lifetime: 60
+ damage: 38
+ ammoMultiplier: 1
+ reloadMultiplier: 2
+ bulletWidth: 9
+ bulletHeight: 12
+ }
+ Puid: {
+ speed: 3
+ lifetime: 60
+ damage: 61
+ ammoMultiplier: 1
+ homingPower: 2
+ homingRange: 40
+ reloadMultiplier: 2.0
+ bulletWidth: 9
+ bulletHeight: 15
+ }
+surge-alloy: {
+ speed: 4
+ lifetime: 69
+ damage: 67
+ ammoMultiplier: 1
+ homingPower: 2
+ homingRange: 40
+ reloadMultiplier: 2.0
+ bulletWidth: 9
+ bulletHeight: 15
+ }
+Lugel: {
+ speed: 4
+ lifetime: 60
+ damage: 150
+ ammoMultiplier: 1
+ homingPower: 2
+ homingRange: 80
+ reloadMultiplier: 1.2
+ bulletWidth: 9
+ bulletHeight: 15
+ }
+ }
+category: turret
+requirements: [
+ Lugel/50
+ Puid/45
+ graphite/65
+ surge-alloy/35
+]
+research:PuidTurretBig

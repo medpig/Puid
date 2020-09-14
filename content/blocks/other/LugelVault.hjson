@@ -1,0 +1,13 @@
+name: "Lugel Vault"
+description: ""
+type: Vault 
+size: 3
+health: 510
+itemCapacity: 15000
+requirements: [
+ Lugel/70
+ titanium/80
+ Puid/40
+] 
+research: LugelFactory
+category: effect

@@ -1,0 +1,13 @@
+name: "Lugel Liquid Tank"
+description: ""
+type: LiquidRouter
+size: 3
+health: 560
+liquidCapacity: 15000
+requirements: [
+ Lugel/70
+ titanium/85
+ Puid/45
+] 
+research: LugelFactory
+category: liquid

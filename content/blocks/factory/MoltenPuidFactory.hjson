@@ -1,0 +1,31 @@
+type: Fracker
+name:"Molten Puid Factory"
+description:"Melts puid into liquid"
+outputItem:silicon/1
+size:3
+hasPower:true
+hasItems:true
+craftTime:80
+updateEffect:steam
+itemCapacity:30
+liquidCapacity: 50
+consumes: {
+power: 1
+liquid: {
+liquid: slag
+amount: 0.08333333333
+}
+items: {
+items: [
+Puid/1
+]}
+}
+result: MoltenPuid
+pumpAmount: 0.3
+
+requirements:[
+Puid/70
+Lugel/80
+]
+category:crafting
+research:router

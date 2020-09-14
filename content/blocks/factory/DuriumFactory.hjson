@@ -1,0 +1,25 @@
+type:GenericSmelter
+name:"DuriumFactory"
+description:"Produces Durium from lugel, thorium and silicon1"
+outputItem:Durium/1
+size:3
+hasPower:true
+hasItems:true
+craftTime:40
+updateEffect:steam
+itemCapacity:12
+consumes:{
+power:2
+items:{items:[
+Lugel/1
+thorium/2
+silicon/4
+]}}
+requirements:[
+Lugel/130
+plastanium/40
+thorium/70
+Puid/140
+]
+category:crafting
+research:router

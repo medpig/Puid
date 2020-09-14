@@ -1,0 +1,48 @@
+type: doubleTurret
+name: "Puid Turret"
+description: "Small puid turret."
+targetAir: true
+targetGround: true
+health: 480
+size: 1
+reload: 35
+inaccuracy: 3
+range: 180
+ammo: {
+ lead: {
+ speed: 2
+ lifetime: 60
+ damage: 21
+ ammoMultiplier: 2
+ reloadMultiplier: 1
+ bulletWidth: 9
+ bulletHeight: 12
+ }
+ graphite: {
+ speed: 2
+ lifetime: 60
+ damage: 28
+ ammoMultiplier: 4
+ reloadMultiplier: 0.6
+ bulletWidth: 9
+ bulletHeight: 12
+ }
+ Puid: {
+ speed: 2
+ lifetime: 60
+ damage: 34
+ ammoMultiplier: 5
+ homingPower: 1
+ homingRange: 20
+ reloadMultiplier: 1.4
+ bulletWidth: 9
+ bulletHeight: 12
+ }
+ }
+category: turret
+requirements: [
+ Puid/45
+ lead/20
+ graphite/20
+]
+research:duo

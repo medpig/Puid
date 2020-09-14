@@ -1,0 +1,11 @@
+type: Conveyor
+name: "Puid Conveyor"
+description: ""
+health: 125
+requirements:[
+Puid/6
+plastanium/2
+]
+category: distribution
+speed: 0.12
+research: titanium-conveyor

@@ -1,0 +1,35 @@
+type: Separator
+name: "Lugel Separator" 
+description: "Can give Puid, Lugel, Plastanium"
+
+size: 3
+solid: true
+hasPower: true
+hasLiquids: true
+hasItems: true
+itemCapacity: 20
+liquidCapacity: 60
+
+craftTime: 40
+
+requirements: [
+Lugel/70
+plastanium/120
+Puid/90
+]
+
+consumes: {
+power: 4
+liquid: {
+liquid: MoltenPuid
+amount: 0.25
+}
+}
+
+results: [
+Lugel/1
+plastanium/3
+Puid/2
+]
+
+category: crafting

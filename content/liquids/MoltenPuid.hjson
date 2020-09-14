@@ -1,0 +1,9 @@
+name:"Molten Puid"
+description:""
+temperature:0.9
+flammability: 0
+heatCapacity:0.4
+viscosity:0.8
+explosiveness:0
+effect:"boss"
+color:"#606060"

@@ -1,0 +1,12 @@
+type: SolarGenerator
+name: "Puid Solar Panel"
+description: "Creates energy from the sun"
+size: 3
+health: 270
+powerProduction: 4
+requirements: [
+Puid/55
+graphite/45
+]
+category: power
+research: solar-panel

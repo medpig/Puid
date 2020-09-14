@@ -1,0 +1,26 @@
+type:GenericCrafter
+name:"Puid Factory"
+description:"Combines coal, lead, graphite and platinum"
+outputItem: Puid/1
+size:3
+health:340
+hasPower:true
+hasItems:true
+craftTime:150
+updateEffect:steam
+itemCapacity:12
+consumes:{
+power:0.5
+items:{items:[
+coal/2
+lead/4
+graphite/4
+plastanium/2
+]}}
+requirements:[
+lead/50
+graphite/45
+plastanium/20
+]
+category:crafting
+research:plastanium-compressor

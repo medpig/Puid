@@ -1,0 +1,27 @@
+type: SingleTypeGenerator
+name: "Lugel Generator"
+description: ""
+size: 3
+health: 530
+itemCapacity: 36
+liquidCapacity: 30
+itemDuration: 135
+hasPower: true
+hasLiquids: true 
+hasItems: true 
+consumes: {
+items: { 
+    items: [
+        coal/5
+        Lugel/1
+    ] 
+ } 
+liquid: water/0.1
+}
+requirements: [
+Puid/80
+Lugel/100
+titanium/60
+]
+category: power
+powerProduction: 27

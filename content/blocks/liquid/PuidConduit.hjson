@@ -1,0 +1,15 @@
+type: Conduit
+name: "Puid Conduit"
+description:""
+health: 380
+solid: true
+floating: true
+liquidCapacity: 40
+leakResistance:1
+requirements: [
+  metaglass/3
+  Puid/4
+  plastanium/4
+  Lugel/1
+]
+category: liquid

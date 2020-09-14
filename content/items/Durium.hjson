@@ -1,0 +1,8 @@
+type:material
+name: "Durium"
+description: "Lugel, thorium and silicone alloy"
+color: "#D9648E"
+radioactivity: 0.0
+explosiveness:0.0
+flammability:0.0
+hardness: 7

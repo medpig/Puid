@@ -1,0 +1,8 @@
+type:material
+name: "Lugel"
+description: "Material similar to puid, but with addition of thorium and pyrotite"
+color: "#D9B159"
+radioactivity: 0.0
+explosiveness:0.0
+flammability:0.0
+hardness: 8

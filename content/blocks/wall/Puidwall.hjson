@@ -1,0 +1,10 @@
+name:"Puid wall"
+description:"[#AAAAAA]Puid wall."
+type:Wall
+health:970
+size:1
+requirements:[
+Puid/6
+]
+category:defense
+research:plastanium-wall-large

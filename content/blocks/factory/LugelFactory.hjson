@@ -1,0 +1,26 @@
+type:GenericSmelter
+name:"Lugel Factory"
+description:"Consists of puida, plastania and surge-alloy"
+outputItem: Lugel/1
+size:3
+health:410
+hasPower:true
+hasItems:true
+craftTime:180
+updateEffect:steam
+itemCapacity:12
+consumes:{
+power:0.8
+items:{items:[
+Puid/3
+surge-alloy/4
+plastanium/3
+]}}
+requirements:[
+Puid/110
+graphite/90
+plastanium/85
+surge-alloy/75
+]
+category:crafting
+research:PuidFactory

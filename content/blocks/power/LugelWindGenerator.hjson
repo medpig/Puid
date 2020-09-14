@@ -1,0 +1,18 @@
+name: "Lugel Wind Generator"
+description:  "Creates energy from the air. Generates 840 Energy"
+health: 420
+size: 2
+hasPower: true 
+outputsPower: true
+consumesPower: fasle
+requirements: [
+  Lugel/50
+  Puid/125
+  metaglass/70
+  titanium/60
+]
+buildCostMultiplier: 0.7
+category: power
+research: power-node
+breakable: true
+solid: true

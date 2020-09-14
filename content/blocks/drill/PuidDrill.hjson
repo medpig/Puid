@@ -1,0 +1,22 @@
+name:"Puid Drill"
+description:"."
+type:"Drill"
+size:2
+health:430
+tier:9
+drillTime:100
+itemCapacity:24
+rotateSpeed:3
+consumes:{
+liquid:{
+liquid:"water"
+amount:0.05
+optional:true
+booster:true
+}
+}
+requirements:[
+Puid/50
+graphite/65
+]
+category:"production"

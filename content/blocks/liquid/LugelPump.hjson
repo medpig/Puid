@@ -1,0 +1,17 @@
+name: "Lugel Pump"
+description: ""
+type: Pump
+hasPower: true
+size: 2
+health: 490
+liquidCapacity: 100
+pumpAmount: 3.0
+consumes:{
+power:0.4167}
+requirements: [
+ Lugel/35
+ titanium/25
+ Puid/40
+] 
+research: LugelFactory
+category: liquid

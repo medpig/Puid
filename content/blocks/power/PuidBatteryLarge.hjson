@@ -1,0 +1,16 @@
+name:"Puid Battery Large"
+type:"Battery"
+size: 3
+description:""
+hasPower:true
+health:520
+buildCostMultiplier:0.675
+consumes:{
+powerBuffered:125000
+}
+category:"power"
+requirements:[
+Puid/80
+plastanium/45
+lead/30
+]

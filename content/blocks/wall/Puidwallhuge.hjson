@@ -1,0 +1,10 @@
+name:"Huge Puid Wall"
+description:" [#AAAAAA]Huge pud wall ."
+type:Wall
+health:8730
+size:3
+requirements:[
+Puid/54
+]
+category:defense
+research:Puidwallhuge
