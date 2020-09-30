@@ -1,6 +1,6 @@
 name:"Puid Drill Huge"
 description:"Improved Puid Drill"
-type:"Drill"
+type: Drill
 size:3
 health:560
 tier:10

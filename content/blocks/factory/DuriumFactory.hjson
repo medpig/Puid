@@ -1,5 +1,5 @@
-type:GenericSmelter
 name:"DuriumFactory"
+type: GenericSmelter
 description:"Produces Durium from lugel, thorium and silicon1"
 outputItem:Durium/1
 size:3

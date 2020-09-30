@@ -1,0 +1,16 @@
+name:"Durium Battery Large"
+size: 4
+type: Battery
+description:""
+hasPower:true
+health:520
+buildCostMultiplier:0.675
+consumes:{
+powerBuffered:500000
+}
+category:"power"
+requirements:[
+Puid/180
+Durium/120
+Lugel/80
+]

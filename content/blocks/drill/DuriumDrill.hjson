@@ -1,0 +1,24 @@
+name: "Durium Drill"
+description: "" 
+size: 4
+tier: 11
+drillTime:20
+itemCapacity:105
+liquidCapavity:50
+consumes: {
+power: 5
+liquid:{
+liquid:"cryofluid"
+amount:0.30
+optional:false
+booster:false
+}
+}
+  requirements:[
+Puid/50
+Lugel/90
+graphite/65
+Durium/90
+thorium/50
+]
+category: production

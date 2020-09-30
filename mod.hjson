@@ -1,6 +1,6 @@
 displayName:"Puid mod"
-name:"id"
-description:""
+name:"puid"
+description:"New: Durium Drill, Big Durium Turret , Durium Accelerating Projector"
 author:"medpig"
-version:"1.2.1.2"
+version:"1.2.2.2"
 dependencies:[]

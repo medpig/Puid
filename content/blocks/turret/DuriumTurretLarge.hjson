@@ -1,18 +1,20 @@
-type: doubleTurret
-name: "Lugel Turret Big"
-description: "Big lugel turret"
+type: burstTurret
+name: "Big Durium Turret"
+description": ""
+health: 2500
+size: 3
 targetAir: true
 targetGround: true
-health: 1460
-size: 3
-reload: 30
-inaccuracy: 2
-range: 200
+reload: 90
+range: 280
+ammoUseEffect: shellEjectSmall
+inaccuracy: 1
+rotatespeed: 1
 ammo: {
  graphite: {
  speed: 5
  lifetime: 60
- damage: 38
+ damage: 50
  ammoMultiplier: 1
  reloadMultiplier: 2
  bulletWidth: 9
@@ -21,7 +23,7 @@ ammo: {
  Puid: {
  speed: 3
  lifetime: 60
- damage: 61
+ damage: 75
  ammoMultiplier: 1
  homingPower: 2
  homingRange: 40
@@ -32,7 +34,7 @@ ammo: {
 surge-alloy: {
  speed: 4
  lifetime: 69
- damage: 67
+ damage: 80
  ammoMultiplier: 1
  homingPower: 2
  homingRange: 40
@@ -43,7 +45,18 @@ surge-alloy: {
 Lugel: {
  speed: 4
  lifetime: 60
- damage: 150
+ damage: 160
+ ammoMultiplier: 1
+ homingPower: 2
+ homingRange: 80
+ reloadMultiplier: 1.2
+ bulletWidth: 9
+ bulletHeight: 15
+ }
+Durium: {
+ speed: 4
+ lifetime: 80
+ damage: 185
  ammoMultiplier: 1
  homingPower: 2
  homingRange: 80
@@ -52,11 +65,11 @@ Lugel: {
  bulletHeight: 15
  }
  }
-category: turret
 requirements: [
- Lugel/60
- Puid/45
- graphite/65
- surge-alloy/35
+ Lugel/120
+ Puid/105
+ Durium/85
+ thorium/45
 ]
-research:PuidTurretBig
+category: turret
+research: duo

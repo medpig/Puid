@@ -1,6 +1,6 @@
 name:"Puid Drill"
-description:"."
-type:"Drill"
+description:""
+type:Drill
 size:2
 health:430
 tier:9

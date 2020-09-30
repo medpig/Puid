@@ -2,6 +2,7 @@ type: Conveyor
 name: "Puid Conveyor"
 description: ""
 health: 125
+itemCapacity: 6
 requirements:[
 Puid/6
 plastanium/2
